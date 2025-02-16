@@ -5,6 +5,6 @@ function calculation(value){
     displayCalculation();
     localStorage.setItem('MyCaculation',MyCaculation);
 }
-function displayCalculation(MyCaculation){
-    document.querySelector('.result').innerHTML = MyCaculation;
+function displayCalculation(){
+    document.querySelector('.result').innerHTML = MyCaculation||"";
 }
