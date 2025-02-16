@@ -1,0 +1,26 @@
+html{
+    background-color: black;
+}
+.result {
+color: white;
+font-size: 45px;
+margin-top: 15px;
+margin-bottom: 5px;
+}
+.grey-btn{
+background-color: rgb(51, 51, 51);
+color: white;
+}
+.orange-btn{
+background-color: rgb(254, 160, 10);
+color: white;
+}
+.calculation-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-right: 5px;
+   font-size: 20px;
+   font-weight: bold;
+}
